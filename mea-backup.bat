@@ -3,5 +3,3 @@ xcopy /s /i "C:\Users\rewat\Documents\BioWare\Mass Effect Andromeda\Save" "C:\Us
 @echo off
 echo x=msgbox("Mass Effect Andromeda game save files backed up successfully!",0,"Backup Game Save")>>msgbox.vbs
 start msgbox.vbs
-
-
