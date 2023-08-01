@@ -18,3 +18,5 @@ It's not pretty, it's not fancy but it does what it needs to.
 
 Once run, you should see a new folder in your backup directory labelled something along the lines of "meabackup_20230731_215726" and there will be a new VBScript file called msgbox.vbs
   In each of the backup folders will be the "Save" folder equivalent from your game save data folder. 
+
+After running for the first time and the msgbox.vbs has been created, edit the game-backup.bat and remove the line "echo x=msgbox("{Game Title} game save files backed up successfully!",0,"Backup Game Save")>>msgbox.vbs" otherwise this will run the message repeatedly as it will add numerous lines.
