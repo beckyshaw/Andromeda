@@ -1,7 +1,13 @@
 #!/bin/bash
 
-# Path to your quotes file
-QUOTES_FILE="$HOME/git/andromeda/quote-generator/quotes.txt"
+# Path to your quotes file (update path and case as needed)
+QUOTES_FILE="$HOME/Git/test.rooshaw/Andromeda/quote-generator/quotes.txt"
+
+# # Check if the file exists and is not empty
+# if [[ ! -s "$QUOTES_FILE" ]]; then
+#   echo "Quotes file not found or is empty: $QUOTES_FILE"
+#   exit 1
+# fi
 
 # Count the number of lines in the quotes file
 NUM_QUOTES=$(wc -l < "$QUOTES_FILE")
